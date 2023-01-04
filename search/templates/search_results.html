@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Search Results</h1>
+
+<ul>
+  {% for movie in object_list %}
+    <li>
+      {{ movie.movie_id }}, {{ movie.movie }}, {{ movie.other_name }}, {{ movie.director }}, {{ movie.actor }},
+      {{ movie.year}},{{ movie.rate }},{{ movie.first_intorduction }}
+    </li>
+  {% endfor %}
+</ul>
+</body>
+</html>
