@@ -1,0 +1,1 @@
+docker build -t my_web_project:latest --no-cache . -f Dockerfile
