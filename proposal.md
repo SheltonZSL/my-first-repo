@@ -24,14 +24,14 @@ The reason why I chose this project is that I am interested in Skywalking and Fl
 
 ## PROJECT DESCRIPTION
 
-#about Flink#
+#about Flink
 
 Skywalking is an application performance monitoring (APM) tool for distributed systems, which supports functions such as distributed link tracing, application performance monitoring, metrics analysis and logging. This project is to improve SkyWalking's log monitoring and log output, so that users can better observe logs and troubleshoot errors. Therefore, it is necessary to transfer the log files in protobuf format output by Skywalking to Kafka.
 
 
 Kafka is a distributed message queuing system. SkyWalking uses Kafka to transmit data from Agent to server. Specifically, SkyWalking uses Kafka as the middleware for data transmission to send data from the Agent to the server. Therefore, the role of kafka is important. However, only by
 
-#about Drain3#
+#about Drain3
 
 # PROPOSED TIMELINE
 
