@@ -103,7 +103,7 @@ accuracy.
 ### Model of Drain3 (https://github.com/logpai/Drain3/blob/master/drain3/drain.py)
 
 Based on the picture below, you can understand how Flink with Drain3 works.
-![Flink and Drain3.png](..%2FFlink%20and%20Drain3.png)
+![image](https://user-images.githubusercontent.com/113407151/228668897-2b24301e-b240-4522-8bd0-9eeb47a098b9.png)
 Drain3 can extract templates (clusters) in time from Flink's log message stream. The principle
 of Drain3 is based on Drain, which is an unsupervised log analysis method based on log messages. It can automatically
 cluster similar log messages together and generate a template for each cluster. Drain3's message clustering is based on
