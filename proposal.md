@@ -76,7 +76,7 @@ also help analyze log files and the relationship between logs and traces.
 ### The log clustering problem
 
 This figure shows the relationship between AIops and SkyWalking[5].
-![img_1.png](img_1.png)
+[![img_1.png](img_1.png)](https://github.com/SkyAPM/aiops-engine-for-skywalking/blob/master/docs/static/log-trend-analysis-arch.png?raw=true)
 SkyWalking processes log messages through the AIOps engine for log clustering. Log clustering is a significant part of
 AIOps. When SkyWalkin implements this feature with AIOps, we can see what the clustering of logs looks like using the
 Skywalking Booster UI. How to do that, I'll talk about that later.
